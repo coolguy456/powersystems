@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/inductance_3phase" />
+
+    <ImageView
+        android:id="@+id/imageView2pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="19dp"
+        android:src="@drawable/inductance_3phase_double" />
+
+    <EditText
+        android:id="@+id/editText2pop"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText1pop"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/editText1pop"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText1pop"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2pop"
+        android:layout_below="@+id/imageView1pop"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText3pop"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText2pop"
+        android:layout_alignBottom="@+id/editText2pop"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/editText2pop"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView1pop"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText1pop"
+        android:layout_below="@+id/editText1pop"
+        android:gravity="center"
+        android:text="Dab" />
+
+    <TextView
+        android:id="@+id/textView01pop"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1pop"
+        android:layout_alignBottom="@+id/textView1pop"
+        android:layout_alignLeft="@+id/editText2pop"
+        android:gravity="center"
+        android:text="Dbc" />
+
+    <TextView
+        android:id="@+id/textView03pop"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView01pop"
+        android:layout_alignBottom="@+id/textView01pop"
+        android:layout_alignLeft="@+id/editText3pop"
+        android:gravity="center"
+        android:text="Dca" />
+
+    <EditText
+        android:id="@+id/editText5pop"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView2pop"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText04pop"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText5pop"
+        android:layout_marginTop="25dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText03pop"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText04pop"
+        android:layout_marginTop="20dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView07pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText03pop"
+        android:layout_alignLeft="@+id/textView2pop"
+        android:text="radius" />
+
+    <EditText
+        android:id="@+id/editText4pop"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/editText3pop"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView02pop"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText4pop"
+        android:layout_below="@+id/editText4pop"
+        android:gravity="center"
+        android:text="radius" />
+
+    <TextView
+        android:id="@+id/textView2pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText04pop"
+        android:layout_alignLeft="@+id/textView03pop"
+        android:text="D" />
+
+    <TextView
+        android:id="@+id/textView3pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText03pop"
+        android:layout_alignBottom="@+id/editText03pop"
+        android:layout_alignRight="@+id/textView2pop"
+        android:text="h" />
+
+    <EditText
+        android:id="@+id/editText02pop"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView3pop"
+        android:layout_marginTop="21dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView4pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText02pop"
+        android:layout_alignBottom="@+id/editText02pop"
+        android:layout_alignLeft="@+id/textView07pop"
+        android:text="m" />
+
+    <TextView
+        android:id="@+id/textView1pops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3pop"
+        android:layout_alignParentBottom="true"
+        android:text="n" />
+
+    <EditText
+        android:id="@+id/editText1pops"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:ems="10" />
+
+</RelativeLayout>

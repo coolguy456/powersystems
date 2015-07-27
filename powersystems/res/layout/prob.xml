@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mydrawer5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<ScrollView
+   
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+ 
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imageViewprob"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/imageView1prob"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="49dp"
+        android:src="@drawable/apture" />
+
+    <ImageView
+        android:id="@+id/imageView1prob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/prob" />
+
+</RelativeLayout>
+</ScrollView>
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="#FFFFFF">
+<fragment
+    android:id="@+id/fr5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    class="com.example.powersystems.sidebar"
+    tools:layout="@layout/sb" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

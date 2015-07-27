@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    xmlns:tools="http://schemas.android.com/tools">
+
+<fragment
+    android:id="@+id/sidebar"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    class="com.example.powersystems.sidebar"
+    tools:layout="@layout/sb" />
+
+<fragment
+    android:id="@+id/mainpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    class="com.example.powersystems.mainpage"
+    tools:layout="@layout/stl" />
+
+</RelativeLayout>
